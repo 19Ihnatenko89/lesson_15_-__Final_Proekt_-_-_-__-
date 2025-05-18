@@ -1,3 +1,38 @@
+root {
+  --color-blue: rgba(26, 125, 240, 1);
+  --color-white:rgba(255, 255, 255, 1);
+  --color-yelow:rgba(255, 231, 17, 1);
+  --color-blue_dark:rgba(0, 91, 197, 1);
+  --color-black:rgba(51, 51, 51, 1);
+}
 
+.body {
+  width: 1605px;
+  height: 677px;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+}
+
+.header__container {
+  width: 1605px;
+  height: 677px;
+  background-image: url("img/header_photo.svg");
+}
+.header__container__nav {
+  width: 340px;
+  height: 70px;
+}
+.header__container__ul {
+  width: 192px;
+  height: 24px;
+  display: grid;
+}
+.header__container__li {
+  display: flex;
+  list-style: none;
+  gap: 18px;
+  margin: 0;
+  padding: 0;
+}
 
 /*# sourceMappingURL=scss.css.map */

@@ -1,0 +1,50 @@
+body {
+    width: 1605px;
+    height: 677px;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
+    padding: 0 calc(50vw - 750px);
+}
+
+.header__container {
+    width: 1440px;
+    height: 94px;
+    background-image: url("img/header_photo.svg");
+    padding-top: 50px;
+}
+
+.header__nav {
+    display: flex;
+    align-items: flex-start;
+    width: 340px;
+    height: 70px;
+
+}
+
+.header__ul {
+    width: 192px;
+    height: 24px;
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    padding-top: 10px;
+}
+
+.header__li {
+    list-style: none;
+}
+
+.span__ultra {
+    width: 1000px;
+    height: 27px;
+
+
+}
+
+.span__link {
+    width: 168px;
+    height: 27px;
+    list-style: none;
+    
+}
+
