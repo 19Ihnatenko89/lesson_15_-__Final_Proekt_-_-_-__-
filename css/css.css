@@ -292,15 +292,29 @@ body {
 }
 
 .name__video {
-    width: 700px;
-    height: 398px;
+    width: 100%;
     order: -1;
+    aspect-ratio: 16/9;
 }
 
+.h1 {
+    width: 710px;
+    height: 78px;
+    font-size: 30px;
+    --color-black: rgba(51, 51, 51, 1);
+}
+
+.p {
+    width: 710px;
+    height: 240px;
+    font-size: 20px;
+    --color-black: rgba(51, 51, 51, 1);
+}
 
 .button {
-
-    color: var(--color-black);
+    background: yellow;
+    color: black;
+    stroke: black;
     padding: 18px 41px;
     display: inline-flex;
     justify-content: center;
@@ -312,9 +326,32 @@ body {
 }
 
 .button_1 {
-
-   
+    background: white;
+    color: black;
+    stroke: black;
+    stroke-width: 5px;
+    padding: 18px 41px;
+    display: inline-flex;
+    justify-content: right;
+    line-height: 1.64;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    min-width: 225px;
+    box-sizing: border-box;
 }
 
+.article__container {
+    width: 1440px;
+    height: 601px;
+}
+
+.block_5 {
+    width: 1440px;
+    height: 522px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 400px;
+}
 
 
