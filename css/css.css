@@ -488,7 +488,48 @@ body {
     background-color: rgba(26, 125, 240, 1);
 }
 
+.block__5 {
+    width: 185px;
+    height: 49px;
+    font-size: 30px;
+    color: white;
+    justify-content: center;
+    margin-left: 650px;
+    padding-top: 5px;
+
+}
+
+.block__6 {
+    width: 1440px;
+    height: 305px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
 
 
+.block__left_6 {
+    width: 710px;
+    height: 305px;
+    order: -1;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    padding-top: 80px;
+    margin-left: 100px;
+}
 
+.p, .a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.block__right_6 {
+    width: 710px;
+    height: 305px;
+    order: 2;
+    padding-top: 80px;
+
+}
 
