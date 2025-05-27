@@ -516,10 +516,10 @@ body {
     font-size: 18px;
     color: white;
     padding-top: 80px;
-    margin-left: 100px;
+    margin-left: 80px;
 }
 
-.p, .a {
+.left__text {
     color: white;
     text-decoration: none;
     font-size: 18px;
@@ -529,7 +529,24 @@ body {
     width: 710px;
     height: 305px;
     order: 2;
-    padding-top: 80px;
+    padding-top: 90px;
+    margin-left: 20px;
+}
 
+.block__footer {
+    width: 1440px;
+    height: 186px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+
+.block__footer_1 {
+    width: 983px;
+    height: 186px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
