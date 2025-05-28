@@ -1,6 +1,6 @@
 body {
-    width: 1440px;
-    height: 7741px;
+    max-width: 100%;
+    max-height: 100%;
     font-family: "Roboto", sans-serif;
     line-height: 1.5;
     padding: 0 calc(50vw - 750px);
@@ -289,55 +289,40 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    gap: 30px;
 }
 
-.name__video {
-    width: 100%;
+.name__left {
+    width: 700px;
+    height: 398px;
     order: -1;
-    aspect-ratio: 16/9;
+}
+
+.name__right {
+    width: 710px;
+    height: 406px;
+    order: 2;
 }
 
 .h1 {
-    width: 710px;
-    height: 78px;
-    font-size: 30px;
-    --color-black: rgba(51, 51, 51, 1);
+    margin: 10px;
 }
 
 .p {
     width: 710px;
     height: 240px;
     font-size: 20px;
-    --color-black: rgba(51, 51, 51, 1);
+    color: rgba(51, 51, 51, 1);
+    margin: 0;
+    padding: 0;
 }
 
-.button {
-    background: yellow;
-    color: black;
-    stroke: black;
-    padding: 18px 41px;
-    display: inline-flex;
-    justify-content: center;
-    line-height: 1.64;
-    text-decoration: none;
-    letter-spacing: 0.1em;
-    min-width: 225px;
-    box-sizing: border-box;
-}
-
-.button_1 {
-    background: white;
-    color: black;
-    stroke: black;
-    stroke-width: 5px;
-    padding: 18px 41px;
-    display: inline-flex;
-    justify-content: right;
-    line-height: 1.64;
-    text-decoration: none;
-    letter-spacing: 0.1em;
-    min-width: 225px;
-    box-sizing: border-box;
+.div__button {
+    width: 710px;
+    height: 58px;
+    display: flex;
+    gap: 15px;
+    margin: 10px;
 }
 
 .article__container {
@@ -464,6 +449,32 @@ body {
     padding-top: 20px;
 }
 
+.section__container_7 {
+    width: 1439px;
+    height: 491px;
+    padding-bottom: 250px;
+    margin-left: -80px;
+}
+
+.block__3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+.block__left_6 {
+    width: 710px;
+    height: 491px;
+    order: -1;
+}
+
+.block__right_6 {
+    width: 709px;
+    height: 491px;
+    order: 2;
+}
+
 .section__container_8 {
     width: 1440px;
     height: 528px;
@@ -486,6 +497,7 @@ body {
     width: 1600px;
     height: 504px;
     background-color: rgba(26, 125, 240, 1);
+
 }
 
 .block__5 {
@@ -548,5 +560,28 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    justify-content: right;
+    gap: 163px;
 }
+
+.li__footer {
+    list-style: none;
+    font-size: 18px;
+    color: rgba(51, 51, 51, 1);
+}
+
+.li__footer_1 {
+    list-style: none;
+    font-size: 12px;
+    color: rgba(51, 51, 51, 0.5);
+    padding-top: 30px;
+}
+
+.li__footer_2 {
+    list-style: none;
+    font-size: 12px;
+    color: rgba(51, 51, 51, 0.5);
+    padding-top: 55px;
+}
+
 
