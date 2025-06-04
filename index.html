@@ -16,19 +16,26 @@
     <title>Українська Асоціація <<Джерело>></title>
 </head>
 <body>
-
 <header class="header__container">
+    <a class="header__container">
+        <svg class="header__line" width="1439" height="1" viewBox="0 0 1439 1" fill="none"
+             xmlns="http://www.w3.org/2000/svg">
+            <line y1="0.5" x2="1439" y2="0.5" stroke="black"/>
+        </svg>
+
+
+        <img src="img/Rectangle_1.svg" alt="<UNK> <UNK>">
+    </a>
+    <a class="header__container" href="#">
+        <img class="header__logo" src="img/Logo.svg" alt="logo">
+    </a>
     <section class="container">
         <div class="header__div">
-            <a class="header__logo" href="#">
-                <img src="img/Logo.svg" alt="logo">
-            </a>
             <nav class="header__nav">
-                <input type="checkbox" id=nav-toggler>
-                <label class="header__nav-toggler">
+                <input type="checkbox" id=div-toggler>
+                <label for="div-toggler" class="header__div-toggler">
                     <span></span>
                 </label>
-
                 <ul class="header__ul">
                     <li class="header__li">
                         <a class="header__a" href="#">
@@ -58,7 +65,7 @@
                 </ul>
             </nav>
             <section class="header__section">
-                <nav class="header__maps">
+                <nav class="header__nav">
                     <a href="#">
                         <img src="img/phone.svg" alt="phone">
                     </a>
@@ -73,7 +80,8 @@
                     </a>
                 </nav>
             </section>
-            <h1 class="header__h1">
+            <h1 class="header__nav">
+                <input type="checkbox" id=1>
                 <select class="header__language" id="course" name="course">
                     <option value="UKR">UKR</option>
                     <option value="ESP">ESP</option>
@@ -81,67 +89,72 @@
                     <option value="DE">DE</option>
                 </select>
             </h1>
-        </div>
-        <section class="section__container">
-            <nav class="section__nav">
-                <ul class="section__ul">
-                    <li class="section__li">
-                        <a class="selection__a" href="#">
-                            <label for="Наші напрямки"></label>
-                            <select id="Наші напрямки" name="Наші напрямки">
-                                <option value="Український сад">Наші напрямки</option>
-                                <option value="Школа та садочок">Гуманітарний центр</option>
-                                <option value="Бібліотека">Український центр у Барселоні</option>
-                                <option value="Український центр у Барселоні">Бібліотека</option>
-                                <option value="Гуманітарний центр">Школа та садочок</option>
-                                <option value="Наші напрямки">Український сад</option>
-                            </select>
-                        </a>
-                    </li>
-                    <li class="section__li">
-                        <a class="selection__a" href="#">
-                            Наші партнери
-                        </a>
-                    </li>
-                    <li class="section__li">
-                        <a class="selection__a" href="#">
-                            Звіти
-                        </a>
-                    </li>
-                    <li class="section__li">
-                        <a class="selection__a" href="#">
-                            Новини
-                        </a>
-                    </li>
-                    <li class="section__li">
-                        <a class="selection__a" href="#">
-                            Контакти
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </section>
 
-        <section class="header__section_1">
-            <h2 class="header__h2">
-                Українська Асоціація "Джерело"
-            </h2>
-            <p class="header__p">
-                Розвиток та підтримка української діаспори в Каталонії, Іспанії з 2012 року
-            </p>
-            <h3 class="h3__button">
-                <a class="button__img" href="#">
-                    <img src="img/Button.svg" alt="button">
-                </a>
-                <a class="a__button" href="#">
-                    <img src="img/Button_1.svg" alt="button_1">
-                </a>
-            </h3>
-        </section>
+            <section class="section__container">
+                <nav class="header__nav">
+                    <ul class="section__ul">
+                        <li class="section__li">
+                            <a class="selection__a" href="#">
+                                <label for="Наші напрямки"></label>
+                                <select id="Наші напрямки" name="Наші напрямки">
+                                    <option value="Український сад">Наші напрямки</option>
+                                    <option value="Школа та садочок">Гуманітарний центр</option>
+                                    <option value="Бібліотека">Український центр у Барселоні</option>
+                                    <option value="Український центр у Барселоні">Бібліотека</option>
+                                    <option value="Гуманітарний центр">Школа та садочок</option>
+                                    <option value="Наші напрямки">Український сад</option>
+                                </select>
+                            </a>
+                        </li>
+                        <li class="section__li">
+                            <a class="selection__a" href="#">
+                                Наші партнери
+                            </a>
+                        </li>
+                        <li class="section__li">
+                            <a class="selection__a" href="#">
+                                Звіти
+                            </a>
+                        </li>
+                        <li class="section__li">
+                            <a class="selection__a" href="#">
+                                Новини
+                            </a>
+                        </li>
+                        <li class="section__li">
+                            <a class="selection__a" href="#">
+                                Контакти
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </section>
+
+        </div>
     </section>
 </header>
 
 <main class="main__container">
+
+
+    <section class="header__section_1">
+        <h2 class="header__h2">
+            Українська Асоціація "Джерело"
+        </h2>
+        <p class="header__p">
+            Розвиток та підтримка української діаспори в Каталонії, Іспанії з 2012 року
+        </p>
+        <h3 class="h3__button">
+            <a class="button__img" href="#">
+                <img src="img/Button.svg" alt="button">
+            </a>
+            <a class="a__button" href="#">
+                <img src="img/Button_1.svg" alt="button_1">
+            </a>
+        </h3>
+    </section>
+
+
     <section class="container">
         <section class="section__logo">
             <nav class="section__nav_logo">
